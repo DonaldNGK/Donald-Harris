@@ -1,3 +1,3 @@
 #Donald Harris
-hyper,text,markup,and Language
-Cascading Style Sheets
+HTML stands for Hyper,text,markup,and Language 
+CSS stands for Cascading Style Sheets
