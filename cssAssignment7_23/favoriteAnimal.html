@@ -8,6 +8,7 @@
     <style>
     #image{
         width: 200px;
+        
     }
     
     body{
@@ -15,13 +16,56 @@
         font-size: 15px;
         font-family: cursive, Arial;
     }
+
+    .firstParagraph{
+        border: dashed 1px black;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #secondPargraph{
+        border: dotted 1px black;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .span1{
+        font-weight: 700;
+    }
+
+    .animate{
+        animation-name: spin;
+        animation-duration: 3s;
+        text-align: center;
+    }
+
+    @keyframe spin{
+    0%{
+        transform: scale(0)
+        transform: rotate(2dge)
+    }
+
+    50%{
+        transform: scale(2);
+        color: orange;
+        transform: rotate(20dge)
+    }    
+    100%{
+        transform: scale(0);
+        transform: rotate(360deg)
+    }
+    }
+
+    @keyframes  {
+        
+    }
     
     </style>
 </head>
 <body>
     <h2>Zebras</h2>
-    <div>
-    <p>Zebras are African equines with distinctive black-and-white striped coats. There are three extant species: the Grévy's zebra, plains zebra and the mountain zebra. Their stripes come in different patterns, unique to each individual.</p> 
+    <div class="firstParagraph">
+    <p>Zebras are African equines with distinctive black-and-white striped coats. There are three extant species: the Grévy's zebra, <spam class="span1">plains zebra and the mountain zebra</spam>. Their stripes come in different patterns, unique to each individual.</p> 
     </div>
     <hr>
     <div id="secondPargraph">
