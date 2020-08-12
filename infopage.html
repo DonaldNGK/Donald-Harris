@@ -8,6 +8,17 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<style>
+		#image {
+			width: 200px;
+
+		}
+
+		html {
+			scroll-behavior: smooth;
+			padding: 0px;
+		}
+	</style>
 </head>
 
 <body>
@@ -22,6 +33,7 @@
 	</script>
 
 	<nav class="navbar navbar-dark bg-dark">
+		<img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/72159d1e4995772c1c040cc669545795/large.PNG" style="max-width:50px;">
 		<a class="navbar-brand" href="#">Donald's Website</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -30,10 +42,10 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="Project.html">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Help</a>
+					<a class="nav-link" href="infopage.html">My skills</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -41,25 +53,20 @@
 						Dropdown
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="https://en.wikipedia.org/wiki/Video_game">About Video Games</a>
+						<a class="dropdown-item"
+							href="https://www.nintendo.co.uk/Corporate/Career/About-Nintendo/About-Nintendo-825979.html">About
+							Nintendo</a>
 						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Something else here</a>
 					</div>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-				</li>
 			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form>
 		</div>
 	</nav>
 
 	<div class="container">
 
+		<!-- Opening statement -->
 		<h2>Opening statement</h2>
 		<div class="row">
 			<h3>Hi everyone my name is Donald Harris III and I was born in Detroit MI</h3>
@@ -68,6 +75,7 @@
 				time and the first game I played was Super Mario 64</p>
 		</div>
 
+		<!-- Hard skills -->
 		<h2> Hard skills</h2>
 		<div class="row">
 			<ul class="list-group">
@@ -76,7 +84,7 @@
 			</ul>
 		</div>
 
-
+		<!-- Soft skills -->
 		<h2> Soft skills </h2>
 		<div class="row">
 			<ul class="list-group">
@@ -85,6 +93,7 @@
 			</ul>
 		</div>
 
+		<!-- Personal attributes -->
 		<h2> Personal attributes </h2>
 		<div class="row">
 			<ol>
@@ -97,13 +106,13 @@
 			</ol>
 		</div>
 
-
+		<!-- Educational qualification -->
 		<h2>Educational qualifications</h2>
 		<div class="row">
 			<p>Cody Academy of Public Leadership - Earned high school diploma</p>
 		</div>
 
-
+		<!-- Work Experience -->
 		<h2>Work Experience</h2>
 		<div class="row">
 			<table class="table">
@@ -139,6 +148,7 @@
 			</table>
 		</div>
 
+		<!-- Contact Information -->
 		<h3>Contact Information</h3>
 		<div class="row">
 			<form>
@@ -149,9 +159,7 @@
         placeholder="add a message here"
         style="margin-bottom: 16px;"
         name="message" cols="30" rows="10"></textarea><br>
-				<button
-        id="submit"
-        type="submit">Submit</button>
+				<a href="thankyou.html" id="submit" type="submit">Submit</a>
 			</form>
 		</div>
 
